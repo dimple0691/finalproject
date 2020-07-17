@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Franziska Ostermai | Front-End Developer • Web Design</title>
-       
+
     <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
     <meta name="viewport" content="width=device-width,initial-scale=1.0" />
 
@@ -21,6 +21,16 @@
         html {
             scroll-behavior: smooth;
             font-size: 100%;
+        }
+
+        @media all and (max-width: 480px) {
+            nav.mobile {
+                display: block;
+            }
+
+            nav.desktop {
+                display: none;
+            }
         }
 
         .Kopfzeile {
@@ -175,39 +185,13 @@
             margin-left: 3%;
             margin-bottom: 10%;
             font-family: 'Baloo Da 2', cursive;
+            text-align: center;
             font-size: 17px;
             word-break: normal;
+            color: #3D3D3D;
+
         }
 
-        .project1 {
-            background-color: antiquewhite;
-            color: slategray;
-        }
-
-        .project2 {
-            background-color: slategray;
-            color: white;
-        }
-
-        .project3 {
-            background-color: antiquewhite;
-            color: slategray;
-        }
-
-        .project4 {
-            background-color: slategray;
-            color: white;
-        }
-
-        .project5 {
-            background-color: antiquewhite;
-            color: slategray;
-        }
-
-        .project6 {
-            background-color: slategray;
-            color: white;
-        }
 
         .CV {
             display: grid;
@@ -446,7 +430,7 @@
                     <hr><br>
                     <i>I am a happy bubbly woman who apparently still doesn't understand that she is almost 30 years old! I live according to the motto: life is too short to do things you don't like.<br>So: Carpe Diem!<br><br>
                         One of my needs is definitely SPORTS! At the age of four I started ballet and athletics and tried various sports. Horse riding, tennis, yoga, surfing, handball, volleyball (thank you mom for going through all of this!!).<br><br>In the end, I realized that I can feel enthusiasm for almost every kind of sports and that I also want to try out a lot of different ones in my life.<br><br>Every sport has its unique value. Yoga is for the balance, the body sensation and control. On the other hand, surfing is absolutely exciting and gives that certain kick whereas dancing is connected with this social aspect and lively music which means balm for the soul <ion-icon name="heart-outline"></ion-icon>
-</i></div>
+                    </i></div>
                 <div class="flexelement">FOOD
                     <hr><br>
                     <i>I just can't get around it. Good food is simply life!<br>Cross your heart: after a healthy meal you not only feel better, it also tastes better!<br><br> Whether I cook or eat out, I always choose vegetarian food and also mostly vegan. There are now many studies that prove that plant-based diets are more beneficial to your health than animal based diets - and the meat no longer provides the nutrients that it is supposed to through all this mass production.<br><br> Apart from that, I'm just an animal lover and like to avoid meat to save an animal life. There are so many awesome recipes with vegan ingredients and I really enjoy to try them out.<br><br>In the end it is true:<br>we are what we eat!<br>So what are you?
@@ -475,48 +459,54 @@
 
                 <div class="project1">
                     <img src="webdev.jpg" width="400">
-                    <strong>Web Design with HTML &amp; CSS</strong><br><br>
+                    Web Design with HTML &amp; CSS
+                    <hr>
                     As I told you already I recently did a course for web development thus this is my latest project I have been working on.<br>
-                        You are interested in learning the basics of html and css?<br>
-                        Then feel free to klick here and find out about the world of how to create your own website! It is more fun than one may think ;)
+                    You are interested in learning the basics of html and css?<br>
+                    Then feel free to klick here and find out about the world of how to create your own website! It is more fun than one may think ;)
                 </div>
 
                 <div class="project2">
                     <img src="food.jpg" width="400">
-                    <strong>FOOD!</strong><br><br>
+                    FOOD!
+                    <hr>
                     Who doesn't love food?<br><br>Although this website is all about web development, this part could not be left out of my portfolio. Thus, this is an essential part of my projects, where all my passions get linked to eachother:<br>
-                        I created a website with all different types of <u>food, cuisines all over the globe</u> while I have been travelling.
+                    I created a website with all different types of <u>food, cuisines all over the globe</u> while I have been travelling.
                 </div>
 
                 <div class="project3">
                     <img src="holiday-2880261_1920.jpg" width="400">
-                    <strong>I'm out!</strong><br><br>
+                    I'm out!
+                    <hr>
                     I do love travelling! I couldn't create a webpage without having a travelblog. I have been to 40 countries already so of course I don't want to withhold my experiences and stories during my trips.<br><br>
-                        You got curios about my trips?<br><br>
-                        <u>Then you should check this out!</u>
+                    You got curios about my trips?<br><br>
+                    <u>Then you should check this out!</u>
                 </div>
 
                 <div class="project4">
                     <iframe width="400" height="315" src="https://www.youtube.com/embed/MamHurq391o" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                    <strong>How to edit videos with i Movie</strong><br><br>
+                    How to edit videos with i Movie
+                    <hr>
                     Video editing with iMovie is super easy and so much fun! Basically it enables you to create an entire video on a professional level.<br><br>
-                        <u>Klick on the video</u> to learn about all features in iMovie.<br><br>
-                        Stay tuned!
+                    <u>Klick on the video</u> to learn about all features in iMovie.<br><br>
+                    Stay tuned!
                 </div>
 
                 <div class="project5">
                     <iframe width="400" height="315" src="https://www.youtube.com/embed/Lm_1RWjvw24" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                    <strong>How to edit videos with i Movie</strong><br><br>
+                    How to edit videos with i Movie
+                    <hr>
                     During my trip in Malaysia, I created this video with iMovie. It is such a nice memory and at the same time it gives ypu a short summary of <u>10 fun things to do.</u><br><br>
-                        You got tired of albums and 1000 of pictures?<br><br>Then create your own souvenir &amp; make a fun video!
+                    You got tired of albums and 1000 of pictures?<br><br>Then create your own souvenir &amp; make a fun video!
                 </div>
 
                 <div class="project6">
                     <iframe width="400" height="315" src="https://www.youtube.com/embed/AaO0D66xeYY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                    <strong>Tips &amp; Tricks</strong><br><br>
+                    Tips &amp; Tricks
+                    <hr>
                     In this video I give you some helpfull tools and techniques for your video editing.<br><br>
-                        LITTLE TRICKS BUT HUGE IMPACT!<br><br>
-                        <u>Develop your editing skills</u> with these tricks and your videos look professionally made!
+                    LITTLE TRICKS BUT HUGE IMPACT!<br><br>
+                    <u>Develop your editing skills</u> with these tricks and your videos look professionally made!
                 </div>
 
             </div>
@@ -532,7 +522,7 @@
                 <div class="cv a">
                     <strong>Franziska Ostermai</strong>
                     <hr>
-                    Web Developerin<br><br>
+                    Web Engineer<br><br>
                     <ion-icon name="home-outline"></ion-icon> Bundesallee 28 // 10179 Berlin<br>
                     <ion-icon name="call-outline"></ion-icon> (+49) 179 5233488<br>
                     <ion-icon name="mail-outline"></ion-icon> franziska.ostermai@gmail.com
@@ -540,7 +530,7 @@
                 <div class="cv b">
                     <strong>Labor Experience</strong>
                     <hr>
-                    Since 2020 • Google<br><strong>Front-end Developer</strong><br>
+                    Since 2020<br><strong>Front-end Developer</strong><br>
                     Freelancer for digital projects
                     <hr>2017 - 2019 • Melitta Europa GmbH<br>
                     <strong>Sales Manager</strong><br>Supervision of the entire sales process for all food retailers in Berlin &amp; Brandenburg
@@ -612,11 +602,12 @@
     </footer>
 
     <script src="https://unpkg.com/ionicons@5.1.2/dist/ionicons.js"></script>
-    <script>  
-  window.onbeforeunload = function () {
-      window.scrollTo(0, 0);
-  }; 
-</script>
+    <script>
+        window.onbeforeunload = function() {
+            window.scrollTo(0, 0);
+        };
+
+    </script>
 
 </body>
 
